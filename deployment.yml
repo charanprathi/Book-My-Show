@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: bms-container
-        image: 248189943882.dkr.ecr.us-east-1.amazonaws.com/book-my-show  # Replace with your Docker image
+        image: 248189943882.dkr.ecr.us-east-1.amazonaws.com/book-myshow  # Replace with your Docker image
         ports:
         - containerPort: 3000  # Replace with the port your app runs on
